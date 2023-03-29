@@ -365,23 +365,23 @@ header nav ul li:last-of-type a{
     background-color: #000000;;
 }
 .clients-container {
-    padding-top: 11.3rem;
-    padding-bottom: 14rem;
+    padding-top: 180px;
+    padding-bottom: 225px;
 }
 .clients-inner {
-    font-size: 4rem;
-    line-height: 4.2rem;
+    font-size: 64px;
+    line-height: 67px;
     text-align: center;
-    margin-bottom: 1.5rem;
+    margin-bottom: 24px;
     color: white;
 }
 .clients-text {
     font-family: 'Poppins', sans-serif;
-    font-size: 2.4rem;
-    line-height: 3rem;
+    font-size: 38px;
+    line-height: 48px;
     text-align: center;
     color: #C0C0C0;
-    margin-bottom: 8.2rem;
+    margin-bottom: 132px;
 }
 .clients-list {
     list-style: none;
@@ -389,10 +389,10 @@ header nav ul li:last-of-type a{
     flex-wrap: wrap;
     align-items: center;
     justify-content: center;
-    margin-left: -10.9rem;
+    margin-left: -175px;
 }
 .clients-list-item {
-    margin-left: 10.9rem;
+    margin-left: 175px;
     cursor: pointer;
 }
 .clients-inner{
@@ -413,12 +413,7 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
-=======
 
-
-
-
->>>>>>> origin/main
 
 
 
