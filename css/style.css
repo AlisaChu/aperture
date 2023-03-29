@@ -61,6 +61,7 @@ header nav ul li:last-of-type a{
     align-items: flex-end;
     padding-bottom: 71px;
     box-sizing: border-box;
+    position: relative;
 }
 .main_banner article{
     max-width: 580px;
@@ -342,10 +343,12 @@ header nav ul li:last-of-type a{
     margin-right: 6px;
 }
 /*svg*/
-.svg-bottom {
-    align-items: center;
+.button_icons {
+    position: absolute;
     display: flex;
-    margin-left: auto;
+    right: 40px;
+    bottom: 41px;
+    list-style: none;
 }
 .svg-bottom-item {
     display: flex;
