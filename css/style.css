@@ -411,9 +411,64 @@ header nav ul li:last-of-type a{
     text-align: center;
     color: #C0C0C0;
 }
+/*foto*/
 
+.tools-section{
+    background-color: #000000;
+}
+.flex_tools{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.block{
+    margin-right: 106px;
+    height: 314px;
+    display: inline-block;
+    max-width: 600px;
+    align-items: center;
+    padding-top: 173px;
+}
+.block_first{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    color: #C0C0C0;
+    margin-bottom: 6px;
+}
+.block_second{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 32px;
+    color: #FFFFFF;
+    margin-bottom: 14px;
+}
+.block_text{
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #FFFFFF;
+    margin-bottom: 20px;
+}
+.tools_foto {
+    background-image: url("../images/IMAGE88.jpg");
+    background-size: cover;
+    width: 720px;
+    position: relative;
+    min-height: 540px;
+    box-sizing: border-box;
+    justify-content: flex-end;
 
-
-
-
-
+}
+.flex_conteiner{
+    max-width: 1440px;
+    margin: auto;
+}
