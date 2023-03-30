@@ -365,11 +365,13 @@ header nav ul li:last-of-type a{
 }
 /*post*/
 .clients-section {
-    background-color: #000000;;
+    background-color: #000000;
+    padding-top: 113px;
+    padding-bottom: 140px;
 }
-.clients-container {
-    padding-top: 180px;
-    padding-bottom: 225px;
+.block_post{
+    max-width: 1200px;
+    margin: auto;
 }
 .clients-inner {
     font-size: 64px;
@@ -387,16 +389,9 @@ header nav ul li:last-of-type a{
     margin-bottom: 132px;
 }
 .clients-list {
-    list-style: none;
     display: flex;
-    flex-wrap: wrap;
+    justify-content: space-between;
     align-items: center;
-    justify-content: center;
-    margin-left: -175px;
-}
-.clients-list-item {
-    margin-left: 175px;
-    cursor: pointer;
 }
 .clients-inner{
     font-family: 'Poppins', sans-serif;
