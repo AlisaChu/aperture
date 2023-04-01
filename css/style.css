@@ -348,24 +348,42 @@ header nav ul li:last-of-type a{
 /*svg*/
 .button_icons {
     position: absolute;
-    display: flex;
     right: 40px;
     bottom: 41px;
+    display: flex;
     list-style: none;
 }
-.svg-bottom-item {
-    display: flex;
-    align-items: center;
-    margin-right: 25px;
+.button_icons li{
+    margin-left: 16px;
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 12px;
+    color: #FFFFFF;
 }
-.svg-bottom-item-img {
-    margin-right: 10px;
+.button_icons li:before{
+    content: "";
+    display: inline-block;
+    background-image: url("../images/Combined-Shape.svg");
+    width: 16px;
+    height: 16px;
+    margin-right: 6px;
+    position: relative;
+    bottom: -6px;
 }
-.svg-bottom-item-text {
-    font-size: 20px;
-    line-height: 20px;
-    color: white;
+.button_icons li:nth-child(2):before{
+    background-image: url("../images/Combined-Shape (1).svg");
 }
+.button_icons li:nth-child(3):before{
+    background-image: url("../images/Combined-Shape (2).svg");
+    width: 32px;
+}
+.button_icons li:nth-child(4):before{
+    background-image: url("../images/Fill-1.svg");
+    width: 10px;
+}
+
 /*post*/
 .clients-section {
     background-color: #000000;
@@ -416,23 +434,28 @@ header nav ul li:last-of-type a{
 }
 /*foto*/
 
-.tools-section{
-    background-color: #000000;
-
+.tools{
+    position: relative;
+    min-height: 540px;
+    background-color: black;
 }
-.flex_tools{
-    display: flex;
-    flex-direction: row;
-    justify-content: center;
-
-}
-.block{
-    margin-right: 106px;
-    height: 314px;
-    display: inline-block;
-    max-width: 600px;
+.tools .container{
+    margin: auto;
+    max-width: 1240px;
+    min-height: 540px;
     align-items: center;
-    padding-top: 173px;
+    display: flex;
+    position: absolute;
+}
+.tools .by_images{
+    width: 50%;
+    height: 100%;
+    position: absolute;
+    right: 0;
+    top: 0;
+    background-image: url("../images/IMAGE88.jpg");
+    background-size: cover;
+
 }
 .block_first{
     font-family: 'Poppins', sans-serif;
@@ -454,7 +477,7 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     margin-bottom: 14px;
 }
-.block_text{
+.block_text {
     font-family: 'Poppins', sans-serif;
     font-style: normal;
     font-weight: 400;
@@ -463,20 +486,14 @@ header nav ul li:last-of-type a{
     color: #FFFFFF;
     margin-bottom: 20px;
 }
-.tools_foto {
-    background-image: url("../images/IMAGE88.jpg");
-    background-size: cover;
-    width: 720px;
-    position: relative;
-    min-height: 540px;
-    box-sizing: border-box;
+.block{
+    margin-left: 200px;
+    height: 314px;
+    max-width: 600px;
+    align-items: center;
+    padding-top: 173px;
 
 }
-.flex_conteiner{
-    max-width: 1440px;
-    margin: auto;
-}
-
 /* FOOTER  */
 
 .footer {
