@@ -462,7 +462,11 @@ header nav ul li:last-of-type a{
     display: inline-block;
     max-width: 514px;
     align-items: center;
+<<<<<<< HEAD
 
+=======
+    padding-top: 173px;
+>>>>>>> origin/main
 }
 
 .flex_tools{
@@ -510,16 +514,11 @@ header nav ul li:last-of-type a{
     box-sizing: border-box;
 
 }
-.flex_conteiner{
-    max-width: 1440px;
-    margin: auto;
-}
-
 
 /* FOOTER  */
 
 .footer {
-    background-color: #000000;;
+    background-color: #000000;
 }
 .inner-container {
     width: 100%;
@@ -536,11 +535,9 @@ header nav ul li:last-of-type a{
     display: flex;
     justify-content: space-between;
 }
-
-.footer-logo {
+.footer-logo_size {
     width: 128px;
     height: 31px;
-    margin-bottom: 20px;
 }
 .footer-inner{
     font-family: 'Poppins', sans-serif;
@@ -549,6 +546,7 @@ header nav ul li:last-of-type a{
     font-size: 13px;
     line-height: 20px;
     color: #C0C0C0;
+    margin-top: 20px;
 }
 .footer-link-inner {
     font-family: 'Poppins', sans-serif;
@@ -561,7 +559,6 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
     margin-bottom: 10px;
 }
-
 .footer-links-text{
     font-family: 'Poppins', sans-serif;
     font-style: normal;
@@ -574,9 +571,6 @@ header nav ul li:last-of-type a{
 }
 .footer-link {
     list-style: none;
-}
-.footer-link li{
-    margin-top: 10px;
 }
 .footer-list{
     display: flex;
@@ -614,29 +608,30 @@ header nav ul li:last-of-type a{
     color: #C0C0C0;
 }
 .form-footer {
-    padding: 11px;
-    width: 482px;
-    height: 52px;
+    width: 100%;
+    max-width: 458px;
+    background: #F9FAFB;
     border-radius: 12px;
     display: flex;
     justify-content: space-between;
+    padding-right: 6px;
+    box-sizing: border-box;
+    height: 52px;
     align-items: center;
-    background-color: white;
 }
 .form-footer-input {
-    width: 389px;
-    height: 52px;
+    line-height: 52px;
     border: none;
-    outline: none;
+    background-color: transparent;
+    width: 80%;
 }
-.form-footer-btn{
-    border: none;
-    cursor: pointer;
+.btn_input {
     width: 63px;
     height: 30px;
+    background: #000000;
     border-radius: 11px;
-    background-color: #000000;
-    padding: 11px 6px 11px;
+    border: none;
+    cursor: pointer;
 }
 .footer-bottom {
     display: flex;
