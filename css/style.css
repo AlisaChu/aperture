@@ -446,7 +446,6 @@ header nav ul li:last-of-type a{
     min-height: 540px;
     align-items: center;
     display: flex;
-    position: absolute;
 }
 .tools .by_images {
     width: 50%;
@@ -458,17 +457,12 @@ header nav ul li:last-of-type a{
     background-size: cover;
 }
 .block {
-    margin-left: 200px;
     display: inline-block;
     max-width: 514px;
     align-items: center;
-<<<<<<< HEAD
-
-=======
     padding-top: 173px;
->>>>>>> origin/main
-}
 
+}
 .flex_tools{
     display: flex;
     flex-direction: row;
