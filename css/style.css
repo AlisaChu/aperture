@@ -192,7 +192,7 @@ header nav ul li:last-of-type a{
 
 /*black*/
 .black{
-    background-color:  #000000;
+    background-color: #000000;
 }
 .black-container {
     width: 100%;
@@ -200,6 +200,7 @@ header nav ul li:last-of-type a{
     padding-left: 32px;
     padding-right: 32px;
     margin: auto;
+
 }
 .features-container {
     padding-top: 120px;
@@ -251,7 +252,6 @@ header nav ul li:last-of-type a{
     background-color: black;
     margin-right: 6px;
 }
-
 /*What we do.*/
 .what_we_do{
     background-color: #000000;
@@ -461,6 +461,7 @@ header nav ul li:last-of-type a{
     max-width: 514px;
     align-items: center;
     padding-top: 173px;
+    padding-bottom: 153px;
 
 }
 .flex_tools{
@@ -511,27 +512,21 @@ header nav ul li:last-of-type a{
 
 /* FOOTER  */
 
-.footer {
+footer {
     background-color: #000000;
+    padding: 100px 0;
 }
-.inner-container {
-    width: 100%;
-    max-width: 1440px;
-    padding-left: 136px;
-    padding-right: 136px;
+footer .container{
+    max-width: 1168px;
     margin: auto;
-}
-.footer-container {
-    padding-top: 100px;
-    padding-bottom: 104px;
-}
-.footer-top{
     display: flex;
     justify-content: space-between;
 }
-.footer-logo_size {
-    width: 128px;
-    height: 31px;
+footer .container:nth-child(2){
+    border-top: solid 2px white;
+    border-bottom: solid 2px white;
+    padding: 40px 0;
+    margin-top: 36px
 }
 .footer-inner{
     font-family: 'Poppins', sans-serif;
@@ -541,6 +536,10 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
     margin-top: 20px;
+}
+.footer-logo{
+    width: 128px;
+    height: 31px;
 }
 .footer-link-inner {
     font-family: 'Poppins', sans-serif;
@@ -552,6 +551,9 @@ header nav ul li:last-of-type a{
     text-transform: uppercase;
     color: #C0C0C0;
     margin-bottom: 10px;
+    list-style: none;
+    width: 143px;
+
 }
 .footer-links-text{
     font-family: 'Poppins', sans-serif;
@@ -561,27 +563,14 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     color: #FFFFFF;
     text-decoration: none;
-    margin-bottom: 10px;
+    width: 182px;
 }
-.footer-link {
-    list-style: none;
-}
-.footer-list{
+footer .right_first{
     display: flex;
 }
-.footer-link-two{
-    margin-left: 55px;
-    margin-right: 238px;
-}
-.footer-form {
-    margin-top: 36px;
-    margin-bottom: 56px;
-    border-top: 2px solid #FFFFFF;;
-    border-bottom: 2px solid #FFFFFF;;
-    width: 100%;
-    padding: 65px 0;
-    display: flex;
-    justify-content: space-between;
+footer .right_first ul{
+    min-width: 220px;
+    margin-left: 15px;
 }
 .footer-wrapper-title{
     font-family: 'Poppins', sans-serif;
@@ -592,6 +581,7 @@ header nav ul li:last-of-type a{
     letter-spacing: 2px;
     text-transform: uppercase;
     color: #FFFFFF;
+    margin-bottom: 20px;
 }
 .footer-wrapper-text{
     font-family: 'Poppins', sans-serif;
@@ -601,7 +591,7 @@ header nav ul li:last-of-type a{
     line-height: 20px;
     color: #C0C0C0;
 }
-.form-footer {
+form{
     width: 100%;
     max-width: 458px;
     background: #F9FAFB;
@@ -613,24 +603,19 @@ header nav ul li:last-of-type a{
     height: 52px;
     align-items: center;
 }
-.form-footer-input {
+.form-footer-input{
     line-height: 52px;
     border: none;
     background-color: transparent;
     width: 80%;
 }
-.btn_input {
+.btn_input{
     width: 63px;
     height: 30px;
     background: #000000;
     border-radius: 11px;
     border: none;
     cursor: pointer;
-}
-.footer-bottom {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 .footer-bottom-title{
     font-family: 'Poppins', sans-serif;
@@ -639,12 +624,30 @@ header nav ul li:last-of-type a{
     font-size: 14px;
     line-height: 20px;
     color: #C0C0C0;
+    margin-top: 56px;
 }
-.footer-bootom-social {
-    list-style: none;
+.footer-bottom {
     display: flex;
+    justify-content: space-between;
     align-items: center;
 }
-.footer-bootom-social-item {
-    margin-right: 20px;
+
+.footer-copyright {
+    font-family: 'Poppins', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #C0C0C0;
+    margin-top: 56px;
+}
+.footer-social-item {
+    display: flex;
+    margin-left: 20px;
+    justify-content: right;
+    align-items: center;
+    margin-top: 28px;
+}
+footer .right_first ul li{
+    margin: 10px;
 }
