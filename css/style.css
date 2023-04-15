@@ -195,12 +195,9 @@ header nav ul li:last-of-type a{
     background-color: #000000;
 }
 .black-container {
-    width: 100%;
-    max-width: 1200px;
+
     padding-left: 32px;
     padding-right: 32px;
-    margin: auto;
-
 }
 .features-container {
     padding-top: 120px;
@@ -651,3 +648,37 @@ form{
 footer .right_first ul li{
     margin: 10px;
 }
+
+
+
+@keyframes shake {
+    0%{
+        position: absolute;
+    }
+    10%{
+        left: 3%;
+        top: 2%;
+        transform: rotate(360deg);
+    }
+    70%{
+        left: 2%;
+        top: 4%;
+        transform: rotate(360deg);
+    }
+    100%{
+        left: 4%;
+        top: 2%;
+        transform: rotate(0deg);
+    }
+
+}
+.shake {
+    width: 100px;
+    height: 100px;
+    background: #00bcd4;
+    position: absolute;
+    z-index: 10;
+    animation: shake infinite 5s;
+}
+
+
