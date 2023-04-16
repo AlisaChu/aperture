@@ -11,10 +11,29 @@
         font-size: 11px;
     }
 }
-@media only screen and (max-width: 751px) {
-    header nav ul li {
-        margin-left: 8px;
+@media only screen and (max-width: 768px) {
+    .what_we_do .cards {
+        justify-content: center;
     }
+
+    .block {
+        max-width: 300px;
+        padding: 0 10px;
+    }
+    footer .container {
+        max-width: 800px;
+        padding: 0 10px;
+    }
+    footer .container:nth-child(2) {
+        max-width: 800px;
+        padding: 0 10px;
+
+    }
+}
+/*@media only screen and (max-width: 751px) {*/
+/*    header nav ul li {*/
+/*        margin-left: 8px;*/
+/*    }*/
 
     @media only screen and (max-width: 723px) {
         header nav ul li {
@@ -70,6 +89,56 @@
             .tools .container {
                 padding: 0 15px;
             }
+            /* 1. Overall layout and style for the clients-section */
+            .clients-section {
+                background-color: black;
+                padding: 20px;
+                text-align: center;
+            }
+
+            /* 2. Style the block_post class for container dimensions and spacing */
+            .block_post {
+                max-width: 100%;
+                margin: 0 auto;
+                padding: 20px;
+            }
+
+            /* 3. Style the clients-inner class for header text */
+            .clients-inner {
+                font-size: 24px;
+                color: white;
+                font-weight: bold;
+                margin-bottom: 10px;
+            }
+
+            /* 4. Style the clients-text class for subheading text */
+            .clients-text {
+                font-size: 16px;
+                color: #999;
+                margin-bottom: 30px;
+            }
+
+            /* 5. Define the layout and style for the clients-list class */
+            .clients-list {
+                display: flex;
+                flex-wrap: wrap;
+                justify-content: center;
+                align-items: center;
+                gap: 20px;
+            }
+
+            /* 6. Style the individual client logo links and images */
+            .clients-list a {
+                display: inline-block;
+                width: 50%; /* Adjust this value for your desired logo size on mobile */
+                text-decoration: none;
+            }
+
+            .clients-list a img {
+                width: 100%;
+                height: auto;
+            }
+
         }
         @media only screen and (max-width: 360px) {
             header nav ul li {
@@ -103,7 +172,8 @@
         .mountains article {
             max-width: 200px;
         }
-        .title{
+
+        .title {
             max-width: 370px;
             font-size: 20px;
         }
@@ -112,41 +182,41 @@
         header nav ul li {
             margin-left: 10px;
         }
-        header{
+
+        header {
             min-height: inherit;
         }
+
         .main_banner {
             height: calc(130vh - 83px);
         }
-        .button_icons li{
+
+        .button_icons li {
             margin-left: 5px;
         }
-        .what_we_do h4{
+
+        .what_we_do h4 {
             font-size: 15px;
         }
-        .mountains{
+
+        .mountains {
             height: calc(120vh - 83px);
         }
+
         footer .container {
             padding: 0 10px;
         }
-        .mountains article{
+
+        .mountains article {
             max-width: 150px;
         }
     }
-    @media only screen and (max-width: 768px) {
-        header nav ul li {
-            margin-left: 25px;
-        }
-        .what_we_do .cards{
-            justify-content: center;
 
-        }
-        .what_we_do .cards article img {
-            display: inherit;
-        }
-    }
-}
+
+
+
+
+
 
 
 
